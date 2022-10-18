@@ -5,8 +5,9 @@ Some instructions of the principal functions in python.
 
 The syntax for **print** function command is:		
 
-  print("Hello yellow cat")
-  
+```ruby
+print("Hello yellow cat")
+```  
 
 The arguments to a function are between parentheses the line is delimited with quotes, and a value betewwn quotes is called a **string**.
 
@@ -14,10 +15,8 @@ The print function proviedes this possibilities:
 
 -If we want to print multiple lines at once, we can do so by invoking multiple print functions:
 
-```rudy
 	print("Hello yellow cat")
 	print("Helllo yellow cat")
-```
 
 There can not be more than one instruction on a line in python 
 
