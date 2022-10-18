@@ -23,7 +23,7 @@ Hello gray cat
 ```
 There can not be more than one instruction on a line in python 
 
-- If we want to print a longer sentence taht should be separated with n- ew lines, we can use the newline caracter **\n**
+- If we want to print a longer sentence taht should be separated with new lines, we can use the newline caracter **\n**
 ```python
 print("Hello yellow \ncats")
 Hello yellow 
