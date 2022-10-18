@@ -9,7 +9,7 @@ The syntax for **print** function is:
 print("Hello yellow cat")
 ```  
 
-The arguments to a function are between parentheses the line is delimited with quotes, and a value betewwn quotes is called a **string**.
+The arguments to a function are between parentheses the line is delimited with quotes, and a value between quotes is called a **string**.
 
 The print function proviedes this possibilities:
 
