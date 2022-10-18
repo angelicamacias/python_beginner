@@ -1,30 +1,31 @@
-# python_beginner
+# PYTHON_BEGINNERS
 Some instructions of the principal functions in python.
 
+## Print function 
 
 The syntax for **print** function command is:		
-'''rudy 
+
   print("Hello yellow cat")
-'''
+  
 
 The arguments to a function are between parentheses the line is delimited with quotes, and a value betewwn quotes is called a **string**.
 
-The PRINT FUNCTION proviedes this possibilities:
+The print function proviedes this possibilities:
 
-If we want to print multiple lines at once, we can do so by invoking multiple print 
-functions
-	print(";lsakjdf")
-	print(";lfjkdas")
+-If we want to print multiple lines at once, we can do so by invoking multiple print functions:
+
+	print("Hello yellow cat")
+	print("Helllo yellow cat")
 
 There can not be more than one instruction on a line in python 
 
-If we want to print a longer sentence taht should be separated with n- ew lines,
-we can use the newline caracter "\n"
+-If we want to print a longer sentence taht should be separated with n- ew lines, we can use the newline caracter **\n**
 
 	print("Hello yellow \ncats")
 		Hello yellow 
+		
 		cats 
-keyword argument:
+*Keyword argument* for print function:
 
 -end 
 	print("Hello!, end="")
@@ -32,21 +33,18 @@ keyword argument:
 
 	Hello! yellow cat 
 
-This keyword argument determines the characters that the print functions sends 
-to the output once it reaches the end of its positional arguments. Lines were printed
+This keyword argument determines the characters that the print functions sends to the output once it reaches the end of its positional arguments. Lines were printed
 on the same line. 
 
 -sep 
 
-With sep we can control the how python separates the outputted arguments
-which is just a space by default. 
+With sep we can control the how python separates the outputted arguments which is just a space by default. 
 
 	print("Hello!, "yellow", "cat", sep="-")
 
 	Hello!-yellow-cat 
 
-The same way we can cobining these the arguments and keywords for have 
-the string that we want it:
+The same way we can cobining these the arguments and keywords for have the string that we want it:
 
 	print("Hello, end="!"\n)
 	print("yellow cat", sept=WW, "end= :)")
