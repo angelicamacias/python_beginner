@@ -13,20 +13,20 @@ The arguments to a function are between parentheses the line is delimited with q
 
 The print function proviedes this possibilities:
 
--If we want to print multiple lines at once, we can do so by invoking multiple print functions:
+- If we want to print multiple lines at once, we can do so by invoking multiple print functions:
 ```python
 print("Hello yellow cat")
 print("Helllo yellow cat")
 ```
 There can not be more than one instruction on a line in python 
 
--If we want to print a longer sentence taht should be separated with n- ew lines, we can use the newline caracter **\n**
+- If we want to print a longer sentence taht should be separated with n- ew lines, we can use the newline caracter **\n**
 ```python
 print("Hello yellow \ncats")
 Hello yellow 
 cats 
 ```
-#### Keyword argument* for print function:
+###  Keyword argument* for print function:
 
 **end** 
 ```python	
