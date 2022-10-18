@@ -14,14 +14,14 @@ The arguments to a function are between parentheses the line is delimited with q
 The print function proviedes this possibilities:
 
 -If we want to print multiple lines at once, we can do so by invoking multiple print functions:
-```rudy
+```python
 print("Hello yellow cat")
 print("Helllo yellow cat")
 ```
 There can not be more than one instruction on a line in python 
 
 -If we want to print a longer sentence taht should be separated with n- ew lines, we can use the newline caracter **\n**
-```ruby
+```python
 print("Hello yellow \ncats")
 Hello yellow 
 cats 
@@ -29,7 +29,7 @@ cats
 *Keyword argument* for print function:
 
 -end 
-```ruby	
+```python	
 print("Hello!, end="")
 print("yellow cat")
 
@@ -41,20 +41,20 @@ on the same line.
 -sep 
 
 With sep we can control the how python separates the outputted arguments which is just a space by default. 
-```ruby
+```python
 print("Hello!, "yellow", "cat", sep="-")
 
 Hello!-yellow-cat 
 ```
 The same way we can cobining these the arguments and keywords for have the string that we want it:
-```ruby
+```python
 print("Hello, end="!"\n)
 print("yellow cat", sept=WW, "end= :)")
 
 Hello! 
 yellowWW cat:) 
 ```
-###ABSTRACT:
+### ABSTRACT:
 -Built-in functions: can be used without importing it.
 -Allows us to print values to the console.
 -We can invoke it with parentheses. 
