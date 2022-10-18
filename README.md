@@ -26,7 +26,7 @@ print("Hello yellow \ncats")
 Hello yellow 
 cats 
 ```
-*Keyword argument* for print function:
+### Keyword argument* for print function:
 
 -end 
 ```python	
@@ -55,9 +55,9 @@ Hello!
 yellowWW cat:) 
 ```
 ### ABSTRACT:
-_Built-in functions: can be used without importing it.
-_Allows us to print values to the console.
-_We can invoke it with parentheses. 
-_We can pass the value we want to print as arguments between the parentheses. 
-_The backslash \ tells python that the next character has a special meaning (eg. \n).
-_Keyword arguements such as sep and end can be used to format the output.
+- Built-in functions: can be used without importing it.
+- Allows us to print values to the console.
+- We can invoke it with parentheses. 
+- We can pass the value we want to print as arguments between the parentheses. 
+- The backslash \ tells python that the next character has a special meaning (eg. \n).
+- Keyword arguements such as sep and end can be used to format the output.
