@@ -3,7 +3,7 @@ Some instructions of the principal functions in python.
 
 ## Print function 
 
-The syntax for **print** function command is:		
+The syntax for **print** function is:		
 
 ```python
 print("Hello yellow cat")
