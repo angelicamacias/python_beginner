@@ -5,7 +5,7 @@ Some instructions of the principal functions in python.
 
 The syntax for **print** function command is:		
 
-```ruby
+```python
 print("Hello yellow cat")
 ```  
 
