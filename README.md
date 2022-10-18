@@ -29,9 +29,9 @@ print("Hello yellow \ncats")
 Hello yellow 
 cats 
 ```
-###  Keyword argument* for print function:
+###  Keyword argument for print function:
 
-**end** 
+- **end** 
 ```python	
 print("Hello!, end="")
 print("yellow cat")
@@ -41,7 +41,7 @@ Hello! yellow cat
 This keyword argument determines the characters that the print functions sends to the output once it reaches the end of its positional arguments. Lines were printed
 on the same line. 
 
-**sep** 
+- **sep** 
 
 With sep we can control the how python separates the outputted arguments which is just a space by default. 
 ```python
