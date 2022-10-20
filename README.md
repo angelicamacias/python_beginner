@@ -1,7 +1,7 @@
 # PYTHON_BEGINNERS
 Some instructions of the principal functions in python.
 
--[Print functions]
+1. [My first title](#Print-function)
 
 
 
