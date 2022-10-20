@@ -1,6 +1,11 @@
 # PYTHON_BEGINNERS
 Some instructions of the principal functions in python.
 
+[Print functions]
+
+
+
+
 ## Print function 
 
 The syntax for **print** function is:		
