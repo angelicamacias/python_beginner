@@ -70,3 +70,64 @@ yellowWW cat:)
 - We can pass the value we want to print as arguments between the parentheses. 
 - The backslash \ tells python that the next character has a special meaning (eg. \n).
 - Keyword arguements such as sep and end can be used to format the output.
+
+## 2. Literals 
+
+A literal is data which values are determined by the literal it self:
+
+```python
+	200 "Hello!" "Python" -84
+```
+
+In python we can use literals in order to encode data and put them into your code. 
+
+### Literals types
+
+Are four types of literals:
+
+- Integer
+	- Octal numbers
+	- Hexadecimal numbers
+- Floating point numbers
+- Strings
+- Boolans 
+
+- Integer 
+
+The type integer, is a number that dosen't have a fraction
+
+```python
+	2000	125487	-90	1_000_000
+```
+There's also octal numbers
+
+```python
+ 		0o1235
+``` 
+And the hexadecimal numbers 
+
+```python 
+		0x4587
+```
+- Floating point numbers 
+
+This numbers have a nonempty decimal fraction 
+
+```python 
+	0.145		0.87		1e-22
+```
+- String
+
+ A string is any series of characters that are interpreted literally by a script. 
+
+```python
+	"hello cat"  	"LKJH019283" 						
+```
+- Boolans
+
+Bool is used to test whether the result of an expression is true or false.
+
+```python
+print(bool(expression))
+```
+
