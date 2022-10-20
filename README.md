@@ -7,7 +7,7 @@ Some instructions of the principal functions in python.
 
 
 
-## 1. Print function 
+## Print function 
 
 The syntax for **print** function is:		
 
@@ -71,7 +71,7 @@ yellowWW cat:)
 - The backslash \ tells python that the next character has a special meaning (eg. \n).
 - Keyword arguements such as sep and end can be used to format the output.
 
-## 2. Literals
+## Literals
 
 A literal is data which values are determined by the literal it self:
 
