@@ -7,7 +7,7 @@ Some instructions of the principal functions in python.
 
 
 
-## 1.Print function 
+## 1. Print function 
 
 The syntax for **print** function is:		
 
