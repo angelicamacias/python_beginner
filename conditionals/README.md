@@ -66,8 +66,8 @@ for i in range(10):
 
 range: is responsible for generating all the desired values of the control variable
 
+![for loop](https://user-images.githubusercontent.com/114703394/202340725-f33e241f-d42d-4aa7-a9ab-c08280f2a284.png)
 
-DIAPOSITIVA 11
 
 
 
@@ -79,6 +79,8 @@ x = 2021
 for i in x:
   print(i)
 ```
+
+![Imagen8](https://user-images.githubusercontent.com/114703394/202340897-7f8a05fc-d0e8-4ceb-8d42-35ce996b7ea9.png)
 
 =======================================================================================
 =====================================================================================
