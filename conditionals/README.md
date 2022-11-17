@@ -66,7 +66,7 @@ for i in range(10):
 
 range: is responsible for generating all the desired values of the control variable
 
-![for loop](https://user-images.githubusercontent.com/114703394/202340725-f33e241f-d42d-4aa7-a9ab-c08280f2a284.png)
+![for loop](https://user-images.githubusercontent.com/114703394/202341831-1242db27-f752-43f7-ae80-a25838e215b5.png)
 
 
 
