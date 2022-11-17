@@ -62,7 +62,7 @@ Loops-For
 
 ```
 for i in range(10):
-
+```
 
 range: is responsible for generating all the desired values of the control variable
 
