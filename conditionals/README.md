@@ -1,8 +1,5 @@
-python
 
-IF
-
-if conditional 
+## if conditional 
 
 
 syntax:
@@ -13,11 +10,9 @@ syntax:
 if (conditional): 
  print("the conditional is true!")
 ```
-dobles colons after the conditional "if" and for syntax is very imporant the space 
-after the command "print" for indicate that this command is into the conditioal. 
+Dobles colons after the conditional "if" and for syntax is very imporant the space after the command "print" for indicate that this command is into the conditioal. 
 
-We can add another conditonal with the keyword **else**, so if the first conditional 
-is false then the conditional will work with the condition into the **else**.
+We can add another conditonal with the keyword **else**, so if the first conditional is false then the conditional will work with the condition into the **else**.
 
 ```pytho
 if (conditional):
@@ -35,13 +30,7 @@ elif (conditional):
 else:
  print("Both conditions are flase!")
 ```
-
-==========================================================================================
-====================================================================================
-
-WHILE
-
-while condition: 
+## While condition 
 
 ```
 while (expression) :
@@ -53,11 +42,7 @@ while (expression) :
 With this condition you to execute code as long as a cerain condition is true. 
 
 
-
-=========================================================================================
-=====================================================================================
-
-Loops-For
+## For loop
 
 
 ```
@@ -82,26 +67,25 @@ for i in x:
 
 ![Imagen8](https://user-images.githubusercontent.com/114703394/202342242-d4d3b2c7-aac6-4419-8899-4f87904201c1.png)
 
-=======================================================================================
-=====================================================================================
-====================================================================================
-=======================================================================================
 
 
-LOGIACAL OPERATORS
+## Logical Operatores
 
 
 AND or Or keyword 
 
+![and](https://user-images.githubusercontent.com/114703394/202344939-3107c86a-f15f-44d6-b641-2ad2896dbc4f.png)
 
 With the AND keyword, we can get a boolan value 
 
 OR
 
 
+![or](https://user-images.githubusercontent.com/114703394/202344992-21280fa5-10d4-45b5-9b1f-06a892eb9538.png)
 
 Not
 
+![not](https://user-images.githubusercontent.com/114703394/202345025-91fa8306-2329-4c8c-8a3a-ebd6b6a360f1.png)
 
 another logical operator, wich only takes one value 
 
