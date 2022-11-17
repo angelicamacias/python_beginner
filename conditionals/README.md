@@ -106,16 +106,20 @@ The conjunction & operator only returns one if both bits are one, otherwise it r
 zero  
 
 IMAGEEEN DIAPOSITIVA 11
+![png](https://user-images.githubusercontent.com/114703394/202350633-fb784883-7f56-49fa-9e3d-d0fb1740731c.png)
 
 ```python
 print (15 & 22)
  6
 ```
-
+![paiplan](https://user-images.githubusercontent.com/114703394/202350766-8550918c-02d4-4db5-ab4f-18305b82f59d.png)
 ```python 
 print (15 | 22)
 31
 ```
+
+![^](https://user-images.githubusercontent.com/114703394/202350796-a77ab411-3b3c-4b4c-a3b8-c0a8025f6824.png)
+
 
 ```python 
 print (15 ^ 22)
@@ -136,10 +140,11 @@ passed values.
 - Bit shifting can be donde with the **<<** and **>>** operators. 
 
 
-==========================================================================
-=====================================================================
+![shifting](https://user-images.githubusercontent.com/114703394/202351278-87c56ef0-8914-4a27-ac21-8a0ac5da87e2.png)
 
-===List:
+
+
+## List
 
 
 
