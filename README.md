@@ -131,3 +131,53 @@ Bool is used to test whether the result of an expression is true or false.
 print(bool(expression))
 ```
 
+
+
+# Python PCAP (associate programmer exam guide)
+
+## MODULE:
+A file containing python definitions and statements, wich can be later imported and used when necessary. 
+- You own module
+- Another deverloper's module
+- Pyhon's built-in modules
+
+--> math 
+Math module is one of python's standard modules, and it provides us functions and classes to make it really easy to prerform mathematical calculations. 
+
+--> dir 
+A useful function when working with modules is the dir function. This function returns an anphabetically sorted list. 
+
+--> Procedural 
+Distinguishes data (variables) and code (modules and functions). Functions can use the data, but the data can not use the functions. 
+
+--> Oject-Oriented
+Data can code are enclosed together in classes. Objects exchange data and activate their meethods. 
+
+ 
+```
+first_vehicle = Vehicle()
+```
+ stack: is a data structure that follows the last-in-first-out approach or LIFO for short. A stack is an object with two methods push in order to put new elements on the top, and pop, to take the existing elements away from the top
+
+push: we append the value that we pass through the function to the stack_list  
+pop: we can remove those items and return them.
+
+more that one stack:
+Which means that you need to create another push and pop functions as well. 
+For that we can create a class
+    class:
+class Vehicle:
+    pass
+we need to add a constructor function , to this function is to create a new object each time the class is invoked. The name of the constructor function is always init and it needs to have at least one parameter usually named self 
+
+```
+class stack:
+    def __init__(self):
+      print("I am in the constructor function!")
+```
+ 
+when a class component starts with two underscores, it becomes private. The property can, in that case, only be accessed from within the class. This is called encapsulation
+
+The moset commonly used character number assignment is ASCII.
+ASCII: American Standar code for information interchanged. 
+
