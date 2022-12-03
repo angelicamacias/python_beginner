@@ -1,46 +1,23 @@
+from geometry import PPoint
+point5 = PPoint(100, 200)
+print(type(point5)) #The result is the file where this PPoint is located.
+
 class Point:
     def __init__(self, x, y):
         self.x = x
         self.y = y 
-
-class Cat:
-    def __init__(self, name, color, age):
-        self.name = name
-        self.color = color
-        self.age = age 
-
-def is_cat(object):
-    if (type(object)) == Cat:
-        return True
-
-billy = Cat("Billy", "Orange", 11)
-whitey = Cat("Blanquito", "White", 3)
-krity = Cat("Krity", "White/gray", 6)
-gris = Cat("Gris", "Gray", 9)
-
-list_of_cats = []
-
-list_of_cats.append(gris)
-list_of_cats.append(krity)
-list_of_cats.append(billy)
-list_of_cats.append(whitey)
+        print(self)
 
 
-list_of_favorite_cats = []
-index = 0 
+point1 = Point (10, 20)
+point2 = Point (12, 22)
+point3 = Point (13, 23)
+point4 = Point (13, 23)
 
-for i in list_of_cats:
-    if is_cat(i) and (i.name == "Billy" or i.name == "Blanquito"):
-        list_of_favorite_cats.append(i)
-        print(list_of_favorite_cats[index].name)
-        index += 1
-
-
-
-
-print(type(billy))
-point1 = Point(10, 20)
-print(type(point1))
-
-print(is_cat(krity))
-
+number1 = int("2")
+print(type(point1)) #The result it's actually the name of the current script 
+print(point1)   #The result of this is "raro", but Python dosen't know what this is a pint object. 
+#we need to give some special instuctions inside the class defenition for see the point object.
+#we have to create a new method here for pyhom can to display the inofrmation. 
+print(number1)
+print(point1.x)
