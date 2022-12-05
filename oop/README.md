@@ -107,7 +107,7 @@ def __init__(self, x, y):
 ```
 for finds out if a cerain point with 
 
-============================================================= HOUSE PAINT ========================================================
+========================= HOUSE PAINT ===================================
 FILE: house_paint.py 
 
 Adding a Method
@@ -118,3 +118,17 @@ Following the logic described above, your task for this exercise is to:
 1. Add a paint_needed method to House
 
 2. Let us suppose that 2.5 buckets of paint are needed to paint one square unit of a wall. Therefore, inside the paint_needed method you should multiply 2.5 with the self.wall_area and return the value. That value is the paint needed to paint the house.
+
+======================== The rectangle class =========================
+ In an effort to create a game where the user can guess a point in a rectangle by typing in some coordinates 
+ So that points so far we came up with this point type, which has an X and Y coordinates to be defined to create an instance ot that point and also a fall_in_rectangle mehtod to check if the points, the instance of the point that was created, falls or not, in that rectangle. 
+And we were able to excuete it like that. 
+
+
+
+SETPS
+First: Write all the types with their init functions. Think of the attributes frist, not the methods 
+
+
+why don't use int?
+We are using float to convert it because user input, when user types something it goes inside, Pyehon as a string, so we need to convert it to a number.  

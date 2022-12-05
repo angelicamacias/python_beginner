@@ -35,3 +35,22 @@ Point(3, 4).falls_in_rectangle((1, 1), (6,6))
 # #we try to see if the x "coordiante" of our point  that we are going to create
 # # is between the lower left, wich will be "point2" so self.x have to be between 
 # # 5-7, ande self.y have to be between 6-9
+
+##===================================
+
+class Rectangle:
+    
+    def __init__(self, lowleft, upright):
+        #create the attributes of the rectangle
+        #Self is the variable that holds the rectangle object. 
+        self.lowleft = lowleft
+        self.upright = upright
+        #The rectangle type is defined. 
+
+#create a new point object
+pointx = Point(6, 7)
+
+#Create a rectangle object now Point(5, 6) it's a object and Point(7, 9) another object. 
+rectanglex = Rectangle(Point(5, 6), Point(7, 9))
+#here we just need to say "rectanglex" becasue this is alrady defined.
+pointx.falls_in_rectangle(rectanglex)
