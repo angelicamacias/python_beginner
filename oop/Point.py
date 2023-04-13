@@ -1,4 +1,4 @@
-from geometry import PPoint
+from geometry import Point
 point5 = PPoint(100, 200)
 print(type(point5)) #The result is the file where this PPoint is located.
 
