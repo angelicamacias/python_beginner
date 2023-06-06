@@ -13,3 +13,9 @@ ax2.plot([1,2,3,4], [5,9,17,25])
 #figure.savefig("graphs.png")
 
 figure.savefig("graphs.png", bbox_inches="tight")
+
+
+
+# Specify the file path
+#save_path = "/path/to/save_directory/graphs.png"
+#figure.savefig(save_path, bbox_inches="tight")

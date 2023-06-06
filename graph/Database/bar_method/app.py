@@ -17,6 +17,7 @@ men_bar = axes.bar(
     poll_x_coordinates, 
     poll_men, 
     tick_label=poll_titles
+
 )
 
 women_bar = axes.bar(
@@ -24,6 +25,7 @@ women_bar = axes.bar(
     poll_women,
     tick_label=poll_titles,
     bottom=poll_men
+
 )
 
 #What means each color
