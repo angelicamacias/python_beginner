@@ -1,0 +1,33 @@
+Exercise
+Create a books table that has an auto-incrementing id column.
+
+Other columns:
+
+title
+
+author_name
+
+
+
+Then, add 3 rows of data without providing a value to the id column so that SQLite generates the values for us.
+
+
+
+Solution
+
+
+The complete solution is also available as a db fiddle.
+
+
+
+First, we should create the table. Making the id column auto-incrementing in SQLite is as simple as making it a primary key since it then becomes an alias for ROWID:
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, title TEXT, author_name TEXT);
+
+
+Then we insert the data, making sure to not give values to the `id` column:
+
+INSERT INTO books (title, author_name) VALUES ('Clean Code', 'Uncle Bob');
+INSERT INTO books (title, author_name) VALUES ('Fluent Python', 'Luciano Ramalho');
+INSERT INTO books (title, author_name) VALUES ('Introduction to Algorithms', 'Cormen, Leiserson, Rivest, Stein');
+
