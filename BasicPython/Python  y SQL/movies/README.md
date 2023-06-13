@@ -1,82 +1,43 @@
-**First stage: One table**
+# Movie watchlist
 
-- Users can add movies to a table and store whether they've watched the movie or not 
+Application to keep track of a movie database and the movies that have watched. 
 
-- We won't support multiple users
+## User interfase 
 
-**Second stage: two tables**
+- Welcome messages 
+- User menu 
 
-- We will support multiple users
-- In order to do this we need to separate whoe watched what, from the movies themselves 
+### Menu 
 
-**Third stage: three tables**
+- Adding movie: The user will enter the date in the correct format: "dd-mm-YYYY"
+- Viewing upcoming movies: Show movies just are after to day 
+- Viewing all movies
+- Adding a watched movie for a user
+- Viewing a user's watched movies
+- Adding a user
 
-- Finally, we will reduce duplication futher by storing movie information and user information in their own tables 
+## Database 
 
-- The watched table will only reference the other tables 
+we'll be using a cloud PostgreSQL provider, the free vertion.
+https://www.elephantsql.com
+we will need the URL to access the database using Python
 
+The database.py file contains SQL queries and functions for interacting with the PostgreSQL database
 
-## Injection attacks
+## Connection with Database
 
+Our program is coded to expect an environment variable, that we will define with their database connection string.
 
-When your programs are coded in such a way that users can execute any SQL code they want, without accessing your database directly 
+It reads it, and connects to whatever connection string is provided
 
+### Create a environment variable
 
-## Project Features 
+Create a text file called **.env** where we store environment variables
+When we run the program, we tell the operating system to turn the contents of that file into environment variables 
 
-Keep track of movies the user is interested in, and their release dates. 
+NOTE: We'll use a library called python-dotenv for this 
 
-
-
-# important
-
-
-HOW MEANY ENTITIES DO YOU HAVE?
-
-- USERS
-- MOVIES
-
-SO.. WE WILL CREATE 2 TABLES
-
-## Autoincreminting IDS
-
-An autoincrementing column means that every time we create a now row, a new unique value is created 
-
-
-```
-SELECT * FROM users JOIN accounts ON users.id = accounts.holder_id;
-```
-
-## LIMIT
-
-Maximun number of rows 
-We can get the "10 most experienced employees" with ORDER BY and LIMIT
-
-```
-SELECT * FROM employees LIMIT 10;
-```
-
-
-## Wildcards
-
- %f for any number of characters
- _ for one character 
-
-
- ## CASCADE constraint
-
- Witha CASCADE constraint, we cal tell PostgreSQL what to do with an Account when we delete the corresponding User
-
- ```
- CREATE TABLE accounts(
-    id INTEGER PRIMARY KEY,
-    user_id INTEGER,
-    account_number TEXT, 
-    FOREIGN KEY (user_id) REFERENCES user(id) ON DELETE CASCADE
- )
-```
-
-## What is sensitive data? 
-
-
- 
+- Create the .env and .env .exmaple files
+- Install python-dotenv
+- Load the environment variables whene we start the app
+- Use the environment variable value as our connection string. 
