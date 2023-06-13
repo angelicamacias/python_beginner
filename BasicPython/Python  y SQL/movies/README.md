@@ -41,3 +41,5 @@ NOTE: We'll use a library called python-dotenv for this
 - Install python-dotenv
 - Load the environment variables whene we start the app
 - Use the environment variable value as our connection string. 
+
+image.png
