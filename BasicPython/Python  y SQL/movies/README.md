@@ -42,4 +42,4 @@ NOTE: We'll use a library called python-dotenv for this
 - Load the environment variables whene we start the app
 - Use the environment variable value as our connection string. 
 
-image.png
+![image](https://github.com/angelicamacias/python_beginner/assets/114703394/ab301271-b6c7-46a5-ae3c-278ad5852ddd)
